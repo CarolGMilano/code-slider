@@ -1,0 +1,14 @@
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background: url('../../img/pattern-bg.svg') no-repeat center top 50px/90%, url('../../img/pattern-curve.svg') no-repeat bottom left/contain, var(--white);
+
+    font-family: var(--font);
+
+    overflow: hidden;
+}
+
+[data-none] {
+    display: none;
+}
