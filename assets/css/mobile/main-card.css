@@ -1,0 +1,45 @@
+.card {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 5.2rem 2rem;
+
+    position: relative;
+}
+
+.card__img {
+    width: 85%;
+    height: auto;
+
+    border-radius: 5px;
+}
+
+.card__container {
+    background: url('../../img/pattern-quotes.svg') no-repeat center top 70px/60px;
+
+    padding-top: 6rem;
+}
+
+.card__container .container__text {
+    font-weight: 300;
+    font-size: 19px;
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.card__container .container__name {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: var(--dark-blue);
+
+    margin-top: 1.5rem;
+}
+
+.card__container .container__carrer {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: var(--gray-blue);
+}

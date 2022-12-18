@@ -12,3 +12,7 @@ body {
 [data-none] {
     display: none;
 }
+
+[data-flex] {
+    display: flex;
+}
