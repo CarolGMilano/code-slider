@@ -9,6 +9,11 @@ body {
     overflow: hidden;
 }
 
+.btns__previous,
+.btns__next {   
+    cursor: pointer;
+}
+
 [data-none] {
     display: none;
 }
