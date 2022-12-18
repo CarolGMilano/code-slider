@@ -1,0 +1,29 @@
+.btns {
+    display: flex;
+
+    position: absolute;
+    top: 340px;
+    left: calc(50vw - 50px);
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+
+.btns__previous,
+.btns__next {
+    width: 30px;
+    height: 30px;
+
+    border: none;
+}
+
+.btns__previous {
+    background: url('../../img/icon-prev.svg') no-repeat center/8px, var(--white);
+}
+
+.btns__next {
+    background: url('../../img/icon-next.svg') no-repeat center/8px, var(--white);
+}

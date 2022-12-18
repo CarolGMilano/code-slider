@@ -2,6 +2,7 @@
 
 @import url('mobile/body.css');
 @import url('mobile/main-card.css');
+@import url('mobile/main-btns.css');
 
 :root {
     --dark-blue: hsl(240, 38%, 20%);
