@@ -1,0 +1,47 @@
+@media screen and (min-width: 1000px) {
+    .card {
+        flex-direction: row-reverse;
+    
+        padding: 0;
+        margin-right: -60px;
+    }
+    
+    .card__img {
+        width: 570px;
+        height: 570px;
+    }
+
+    .card__container {
+        background: url('../../img/pattern-quotes.svg') no-repeat left 100px top 25px/100px;
+
+        padding: 5rem 0;
+    }
+
+    .card__container .container__text {
+        font-size: 30px;
+        text-align: start;
+
+        width: 600px;
+
+        margin-right: -70px;   
+        
+        line-height: 2.3rem;
+    }
+
+    .container__data {
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+    }
+    
+    .container__data .data__name {
+        font-size: 18px;
+
+        padding-right: .7rem;
+    }
+    
+    .container__data .data__carrer {
+        font-size: 18px;
+    }
+}

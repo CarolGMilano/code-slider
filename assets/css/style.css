@@ -4,6 +4,10 @@
 @import url('mobile/main-card.css');
 @import url('mobile/main-btns.css');
 
+@import url('desktop/body.css');
+@import url('desktop/main-card.css');
+@import url('desktop/main-btns.css');
+
 :root {
     --dark-blue: hsl(240, 38%, 20%);
     --gray-blue: hsl(240, 18%, 77%);

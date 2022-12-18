@@ -1,0 +1,9 @@
+@media screen and (min-width: 1000px) {
+    body {
+        background: url('../../img/pattern-bg.svg') no-repeat right 50px center/50%, url('../../img/pattern-curve.svg') no-repeat bottom left, var(--white);
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

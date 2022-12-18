@@ -30,16 +30,21 @@
     color: var(--dark-blue);
 }
 
-.card__container .container__name {
-    font-weight: 700;
-    font-size: 16px;
-    text-align: center;
-    color: var(--dark-blue);
+.container__data {
+    display: flex;
+    flex-direction: column;
 
     margin-top: 1.5rem;
 }
 
-.card__container .container__carrer {
+.container__data .data__name {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.container__data .data__carrer {
     font-weight: 500;
     font-size: 15px;
     text-align: center;
