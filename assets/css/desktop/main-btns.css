@@ -1,8 +1,8 @@
 @media screen and (min-width: 1000px) {
     .btns {
         position: absolute;
-        top: 710px;
-        left: calc(59vw - 40px);
+        top: 540px;
+        left: calc(42vw - 40px);
 
         border-radius: 30px;
     }
