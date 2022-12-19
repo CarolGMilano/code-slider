@@ -2,7 +2,7 @@
     .btns {
         position: absolute;
         top: 540px;
-        left: calc(48vw - 40px);
+        left: calc(63% - 40px);
 
         border-radius: 30px;
     }
